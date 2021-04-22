@@ -1,8 +1,12 @@
 a.out: teama.o teamb.o
 	g++ teama.o teamb.o
 
+teama.a: teama.o
+	ar rvs teama.a teama.o
+
 teama.o: teama.cc
 	g++ -c teama.cc
 
 teamb.o: teamb.s
 	g++ -c teamb.s
+
