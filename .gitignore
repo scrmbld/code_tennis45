@@ -1,6 +1,6 @@
 # SECRET HIDDEN FILES
-teama.cc
-teamb.s
+*.cc
+*.s
 
 # Prerequisites
 *.d
